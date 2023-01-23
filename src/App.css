@@ -1,0 +1,206 @@
+.menu a{
+	color: Black;
+	text-decoration: none;
+	font-size: 20px;
+	width: 210px;
+	display: inline-block;
+	padding: 10px;
+}
+.menu a:hover{
+	background-color: silver;
+	color: white;
+}
+.menu{
+	text-align: center;
+	border-collapse: collapse;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	opacity: 0.6;
+	width: 100%;
+}
+.header a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px 16px;
+}
+.header a:hover{
+	background-color: black;
+	color: white;
+}
+.header{
+	background-image: url('components/img/polygons.png');
+	color: white;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding: 200px 0;
+	margin-top: 43px;
+}
+.header p{
+	margin-bottom: 70px;
+}
+body{
+	text-align: center;
+}
+.about img{
+	width: 400px;
+	float: right;
+	margin: 0 30px;
+}
+.about p{
+	text-align: justify;
+	max-width
+	: 1200px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.member{
+	display: inline-block;
+	max-width: 300px;
+	border: 2px solid;
+	border-color: gray;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px 2px gray;
+	margin: 10px;
+	text-align: left;
+}
+.member img{
+	display: block;
+	max-width: 300px;
+}
+.member a{
+	background-color: #35aeb7;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	width: 100%;
+	display: inline-block;
+	padding: 15px 0;
+	text-align: center;
+}
+.member a:hover{
+	color: #35aeb7;
+	background-color: white;
+}
+.member h3{
+	font-size: 24px;
+	font-weight: 400;
+}
+.position{
+	opacity: 0.6;
+}
+.prices{
+	background-color: gray;
+	padding: 30px;
+} 
+.prices h2, .prices p{
+	color: white;
+}
+.prices li{
+	border-bottom: 1px solid #dddddd;
+	width: 100%;
+	list-style-type: none;
+	font-size: 18px;
+}
+.prices .line{
+	padding: 10px 0;
+}
+.prices span{
+	font-weight: bold;
+}
+.prices a{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+	width: 100px;
+}
+.price{
+	font-weight: bold;
+}
+.period{
+	opacity: 0.6;
+}
+.tarif-name{
+	color: white;
+	background-color: black;
+	padding: 20px 0;
+}
+.tarif{
+	background-color: white;
+	width: 25%;
+	min-width: 150px;
+	padding: 0;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.tarif p{
+	color: black;
+}
+.tarif2 p{
+	color: black;
+}
+.cnopka{
+	background-color: #80808066;
+}
+.cnopka a:hover{
+	color: black;
+	background-color: white;
+}
+.cnopka a{
+	padding: 10px;
+}
+.tarif-name2{
+	background-color: #2d9cab;
+	color: white;
+	padding: 32px 0;
+}
+.contact{
+	text-align: left;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	background-size: 18px 18px;
+	margin-left: 5%;
+}
+.contact-address{
+	background-image: url('components/img/address.png');
+}
+.contact-phone{
+	background-image: url('components/img/phone.png');
+}
+.contact-mail{
+	background-image: url('components/img/mail.png');
+}
+.contacts input{
+	width: 90%;
+	padding: 8px;
+}
+.contacts button{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border-color: black;
+	border-radius: 15px;
+	font-size: 15px;
+}
+.contacts button:hover{
+	background-color: white;
+	color: black;
+}
+.contacts{
+	padding: 30px;
+	background-color: #f1f1f1;
+}
+.footer{
+	background-color: black;
+	color: white;
+	text-align: left;
+}
